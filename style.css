@@ -1,0 +1,156 @@
+
+@media screen and (max-width: 1367px) {
+  * {
+    background-color: #E1D1DC;
+  }
+
+
+  button {
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  button img {
+    max-width: 400px;
+  }
+
+  .button1, .button2 {
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  button:focus {
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+  }
+
+  .photo1 {
+    padding-left: 18em;
+    padding-top: 5em;
+  }
+ 
+
+  .photo1:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.7s ease;
+    cursor: pointer;
+  }
+
+  .photo2:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.7s ease;
+    cursor: pointer;
+  }
+  .popup{
+    background: rgba(225, 209, 220, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    transition: 0.7s ease;
+
+  }
+  .popup-content {
+    height: 400px;
+    width: 700px;
+    top: 8em;
+    padding-top: 10em;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 6px 6px 29px rgba(0,0,0,0.75);
+  }
+}
+@media screen and (min-width: 1920px) {
+  * {
+    background-color: #E1D1DC;
+  }
+  
+  button {
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  button img {
+    max-width: 600px;
+  }
+  .button1, .button2 {
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  button:focus {
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+  }
+
+  .photo1 {
+    padding-left: 22em;
+    padding-top: 5em;
+  }
+  .photo1:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.7s ease;
+  }
+
+  .photo2:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.7s ease;
+  }
+
+  
+
+  .popup{
+    background: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    transition: 0.7s ease;
+
+  }
+  .popup-content {
+    height: 400px;
+    width: 700px;
+    top: 15em;
+    padding-top: 10em;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 6px 6px 29px rgba(0,0,0,0.75);
+  }
+}
