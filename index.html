@@ -33,11 +33,25 @@
 
 
       const body = document.querySelector("body");
-      var x = document.querySelector(".photo2");
+      var photo2 = document.querySelector(".photo2");
+      var photo1 = document.querySelector(".photo1")
 
-      x.addEventListener("mouseover", function() {
-        body.style.backgroundColor ="black";
-      });
+      photo1.addEventListener('mouseenter', function() {
+        body.style.backgroundColor = "black"
+      })
+
+      photo1.addEventListener('mouseleave', function(){
+        body.style.backgroundColor ="#E1D1DC"
+      })
+
+      photo2.addEventListener('mouseenter', function() {
+        body.style.backgroundColor = "black"
+      })
+
+      photo2.addEventListener('mouseleave', function(){
+        body.style.backgroundColor ="#E1D1DC"
+      })
+
 
 
     </script>
