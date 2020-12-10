@@ -1,12 +1,11 @@
 @media screen and (min-width: 1000px) {
-  * {
+  body {
     background-color: #E1D1DC;
   }
 
 
   button {
-    padding: 0;
-    border: none;
+    padding: 0; border: none;
     background: none;
   }
 
@@ -30,20 +29,23 @@
   .photo1 {
     padding-left: 18em;
     padding-top: 5em;
+    transition: 0.7s;
   }
-
+  .photo2{
+    transition: 0.7s;
+  }
 
   .photo1:hover{
     transform: scale(1.1,1.1);
-    transition: 0.7s ease;
+    transition: 0.7s;
     cursor: pointer;
   }
-
   .photo2:hover {
     transform: scale(1.1,1.1);
-    transition: 0.7s ease;
     cursor: pointer;
+
   }
+
   .popup{
     background: rgba(225, 209, 220, 0.6);
     width: 100%;
@@ -218,7 +220,7 @@
     top: 0;
     display: none;
     justify-content: center;
-    transition: 0.7s ease;
+    transition: all 0.7s ease;
 
   }
   .popup-content {
