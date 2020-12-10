@@ -5,7 +5,8 @@
 
 
   button {
-    padding: 0; border: none;
+    padding: 0;
+    border: none;
     background: none;
   }
 
@@ -26,9 +27,12 @@
     outline: none;
   }
 
-  .photo1 {
+  .button1 {
     padding-left: 18em;
     padding-top: 5em;
+  }
+
+  .photo1 {
     transition: 0.7s;
   }
   .photo2{
@@ -84,7 +88,7 @@
   }
 }
 @media screen and (min-width: 1920px) {
-  * {
+  body {
     background-color: #E1D1DC;
   }
 
@@ -110,13 +114,14 @@
     outline: none;
   }
 
-  .photo1 {
+  .button1 {
     padding-left: 22em;
     padding-top: 5em;
+    transition: 0.7s;
   }
   .photo1:hover{
     transform: scale(1.1,1.1);
-    transition: 0.7s ease;
+
   }
 
   .photo2:hover {
@@ -165,7 +170,7 @@
 }
 @media screen and (max-width: 1000px ) {
 
-  * {
+  body {
     background-color: #E1D1DC;
   }
 
@@ -194,16 +199,19 @@
     outline: none;
   }
 
-  .photo1 {
+  .button1 {
     padding-top: 3em;
     padding-left: 6em;
     padding-top: 2.5em;
+    transition: 0.7s;
   }
 
+  .photo1 {
+    transition: 0.7s;
+  }
 
   .photo1:hover{
     transform: scale(1.1,1.1);
-    transition: 0.7s ease;
     cursor: pointer;
   }
 
