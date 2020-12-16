@@ -35,9 +35,11 @@
   .photo1 {
     transition: 0.7s;
   }
-  .photo2{
-    transition: 0.7s;
-  }
+}
+.photo2{
+  transition: 0.7s;
+  padding-left: 2em;
+}
 
   .photo1:hover{
     transform: scale(1.1,1.1);
@@ -123,9 +125,11 @@
 
   }
 
-  .photo2 {
-    transition: 0.7s ease;
-  }
+}
+.photo2{
+  transition: 0.7s;
+  padding-left: 2em;
+}
 
   .photo2:hover {
     transform: scale(1.1,1.1);
@@ -184,7 +188,11 @@
     background: none;
     padding-top: 10em;
   }
-
+}
+  .photo2{
+    transition: 0.7s;
+    padding-left: 2em;
+  }
   button img {
     max-width: 400px;
   }
