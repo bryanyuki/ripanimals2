@@ -35,7 +35,7 @@
   .photo1 {
     transition: 0.7s;
   }
-}
+
 .photo2{
   transition: 0.7s;
   padding-left: 2em;
@@ -125,7 +125,6 @@
 
   }
 
-}
 .photo2{
   transition: 0.7s;
   padding-left: 2em;
@@ -188,7 +187,7 @@
     background: none;
     padding-top: 10em;
   }
-}
+
   .photo2{
     transition: 0.7s;
     padding-left: 2em;
