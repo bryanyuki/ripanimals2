@@ -21,25 +21,23 @@
   }
 
   button:focus {
-
+    padding: 0;
     border: none;
     background: none;
     outline: none;
   }
 
   .button1 {
-    padding-left: 18em;
+    padding-left: 20em;
     padding-top: 5em;
   }
 
   .photo1 {
     transition: 0.7s;
   }
-
-.photo2{
-  transition: 0.7s;
-  padding-left: 2em;
-}
+  .photo2{
+    transition: 0.7s;
+  }
 
   .photo1:hover{
     transform: scale(1.1,1.1);
@@ -95,7 +93,7 @@
   }
 
   button {
-    
+    padding: 0;
     border: none;
     background: none;
   }
@@ -104,20 +102,21 @@
     max-width: 600px;
   }
   .button1, .button2 {
-    
+    padding: 0;
     border: none;
     background: none;
   }
 
   button:focus {
+    padding: 0;
     border: none;
     background: none;
     outline: none;
   }
 
   .button1 {
-    left: 22em;
-    top: 5em;
+    padding-left: 26em;
+    padding-top: 5em;
     transition: 0.7s;
   }
   .photo1:hover{
@@ -125,14 +124,9 @@
 
   }
 
-.photo2{
-  transition: 0.7s;
-  padding-left: 2em;
-}
-
   .photo2:hover {
     transform: scale(1.1,1.1);
-    
+    transition: 0.7s ease;
   }
 
 
@@ -182,28 +176,24 @@
 
 
   button {
-    
+    padding: 0;
     border: none;
     background: none;
     padding-top: 10em;
   }
 
-  .photo2{
-    transition: 0.7s;
-    padding-left: 2em;
-  }
   button img {
     max-width: 400px;
   }
 
   .button1, .button2 {
-    
+    padding: 0;
     border: none;
     background: none;
   }
 
   button:focus {
-    
+    padding: 0;
     border: none;
     background: none;
     outline: none;
