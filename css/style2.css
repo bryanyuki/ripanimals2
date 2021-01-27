@@ -19,6 +19,7 @@
     position: absolute;
     top: 2.5em;
     left: 2.5em;
+    transition: 3s ease;
   }
   .toback:hover{
     transform: scale(1.1, 1.1);
