@@ -19,11 +19,11 @@
     position: absolute;
     top: 2.5em;
     left: 2.5em;
-    transition: 3s ease;
+    transition: 1s ease;
   }
   .toback:hover{
     transform: scale(1.1, 1.1);
-    transform: rotate(15deg);
+    transform: rotate(30deg);
   }
   .rectangle1 {
     width: 39.313em;
