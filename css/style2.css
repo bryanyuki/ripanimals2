@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width:1900px) {
+
+  body{
+    background: #595D5D 90%;
+    height: 1255px;
+  }
+  p {
+    color: #dbcfc0;
+    font-size: 20px;
+    font-family: "Lucida Sans";
+  }
+  .toback{
+    width:90;
+    position: absolute;
+    top: 2.5em;
+    left: 2.5em;
+  }
+  .toback:hover{
+    transform: scale(1.1, 1.1);
+    transform: rotate(15deg);
+  }
+  .rectangle1 {
+    width: 39.313em;
+    height: 19.5em;
+    position: absolute;
+    left: 75.25em;
+    top: 5.313em;
+    background-color: #FFF;
+  }
+  .rectangle2{
+    position: absolute;
+    width:589px;
+    height:312px;
+    background-color: #FFF;
+    top:753px;
+    left:746px;
+  }
+  .rectangle3{
+    position: absolute;
+    width:181px;
+    height:312px;
+    background-color: #FFF;
+    top:384px;
+    left:190px;
+  }
+  .circle{
+    position: absolute;
+    width:199px;
+    height:215px;
+    background-color: #FFF;
+    top:130px;
+    left:842px;
+    border-radius: 50%;
+  }
+  .footer{
+    background-color: black;
+    position: absolute;
+    top: 1090px;
+    width: 100%;
+    height: 165px;
+  }
+  .informative{
+    color: #dbcfc0;
+    font-size: 30px;
+    font-family: "Lucida Sans";
+    position: absolute;
+    top: 26px;
+    left: 903px;
+  }
+  .text1{
+    position: absolute;
+    word-wrap: break-word;
+    width: 521px;
+    height: 274px;
+    top:71px;
+    left:321px;
+  }
+  .text2{
+    position: absolute;
+    word-wrap: break-word;
+    width: 521px;
+    height: 274px;
+    top:403px;
+    left:700px;
+  }
+  .text3{
+    position: absolute;
+    word-wrap: break-word;
+    width: 521px;
+    height: 274px;
+    top:470px;
+    left:1335px;
+  }
+  .text4{
+    position: absolute;
+    word-wrap: break-word;
+    width: 521px;
+    height: 274px;
+    top:753px;
+    left:160px;
+  }
+
+
+
+
+}
+@media screen and (max-width:1400px) {
+
+  body {
+    background: #9B59B6;
+  }
+  .toback{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    transition: 2s ease;
+    transform: scale(0.6,0.6);
+  }
+  .toback:hover{
+    transform: scale(0.8,0.8);
+    transform: rotate(15deg);
+  }
+  .textare1 {
+    display: flex;
+    padding-left: 20%;
+    padding-top: 20%;
+    width: 400px;
+  }
+  .img1 img {
+    width: 250px;
+    display: flex;
+    padding-right: 120px;
+  }
+
+}
