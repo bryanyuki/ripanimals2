@@ -110,7 +110,7 @@
 
 
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1400px) and (min-width:1000px) {
 
   body{
     background: #595D5D 90%;
@@ -211,6 +211,27 @@
     height: 274px;
     top:886px;
     left:800px;
+  }
+
+
+}
+@media screen and (max-width: 1000px) {
+  body{
+    background: #595D5D 90%;
+    height: 2800px;
+  }
+  p {
+    color: #dbcfc0;
+    font-size: 20px;
+    font-family: "Lucida Sans";
+    word-wrap: normal;
+    display: none;
+  }
+  .toback{
+    width: 45px;
+    position: absolute;
+    left: 20px;
+    top:20px; 
   }
 
 
