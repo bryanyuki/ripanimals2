@@ -105,6 +105,9 @@
     top:753px;
     left:160px;
   }
+  #textemobile {
+    display: none;
+  }
 
 
 
@@ -212,6 +215,9 @@
     top:886px;
     left:800px;
   }
+  #textemobile {
+    display: none;
+  }
 
 
 }
@@ -219,20 +225,74 @@
   body{
     background: #595D5D 90%;
     height: 2800px;
+    width: 414px
+
   }
   p {
     color: #dbcfc0;
     font-size: 20px;
     font-family: "Lucida Sans";
     word-wrap: normal;
-    display: none;
   }
   .toback{
-    width: 45px;
+    width: 90px;;
     position: absolute;
     left: 20px;
-    top:20px; 
+    top:20px;
   }
+  .informative {
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 121px;
+  }
+  .rectangle1{
+    position: absolute;
+    background: #FFF;
+    left: 163px;
+    top: 110px;
+    width: 223px;
+    height: 243px;
+  }
+  .rectangle2{
+    position: absolute;
+    background: #FFF;
+    left: 20px;
+    top: 668px;
+    width: 316px;
+    height: 126px;
+  }
+  .rectangle3{
+    position: absolute;
+    background: #FFF;
+    left: 239px;
+    top: 1146px;
+    width: 147px;
+    height: 370px;
+  }
+  .circle{
+    position: absolute;
+    background: #FFF;
+    left: 20px;
+    top: 1977px;
+    width: 366px;
+    height: 473px;
+    border-radius: 50%;
+  }
+  .footer{
+    position: absolute;
+    background: #000000;
+    height: 400px;
+    width: 100%;
+    top: 2500px;
+  }
+  .text1, .text2, .text3, .text4{
+    display: none;
+  }
+  #texte{
+    display: none;
+  }
+
 
 
 }
