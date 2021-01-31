@@ -281,7 +281,7 @@
     top: 26px;
     left: 414px;
   }
-  .rectangle1mobile{
+  .rectangle1{
     position: absolute;
     background: #FFF;
     width: 300px;
@@ -298,7 +298,7 @@
     left: 44px;
     top: 543px;
   }
-  .rectangle3{
+  .rectangle3mobile{
     position: absolute;
     background: #FFF;
     width: 400px;
