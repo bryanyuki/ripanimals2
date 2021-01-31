@@ -15,7 +15,7 @@ const body = document.querySelector("body");
 var photo2 = document.querySelector(".button2");
 var photo1 = document.querySelector(".button1");
 photo1.addEventListener('mouseenter', function() {
-  body.style.background = "url(image/chienbg.jpg)"
+  body.style.background = "url(image/chienbg.jpg) no-repeat"
   photo2.style.opacity = "0.3"
 });
 
@@ -26,7 +26,7 @@ photo1.addEventListener('mouseleave', function(){
 });
 
 photo2.addEventListener('mouseenter', function() {
-  body.style.background = "url(image/group.jpg)"
+  body.style.background = "url(image/group.jpg) no-repeat"
   photo1.style.opacity = "0.3"
 });
 
