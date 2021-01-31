@@ -242,10 +242,10 @@
   }
 
   div button img{
-    max-width: 400px;
+    max-width: 300px;
   }
   div a img {
-    max-width: 400px;
+    max-width: 300px;
 
   }
   a {
@@ -278,7 +278,7 @@
   }
 
   .button2 {
-    padding-left: 2em;
+    padding-left: 4em;
   }
 
   .popup {
