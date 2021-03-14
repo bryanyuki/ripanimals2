@@ -29,9 +29,13 @@
     width: 39.313em;
     height: 19.5em;
     position: absolute;
-    left: 75.25em;
+    left: 77em;
     top: 5.313em;
     background-color: #FFF;
+  }
+  .imagefalco {
+    position: absolute;
+    width: 39.313em;
   }
   .rectangle2{
     position: absolute;
@@ -39,24 +43,39 @@
     height:312px;
     background-color: #FFF;
     top:753px;
-    left:746px;
+    left:730px;
   }
   .rectangle3{
     position: absolute;
-    width:181px;
-    height:312px;
-    background-color: #FFF;
+    width:200px;
+    height:2px;
+    
     top:384px;
     left:190px;
   }
+  .image3 {
+    position: absolute;
+    width: 250px;
+  }
+  .textimageiska {
+    position: absolute;
+    top: 340px;
+    left: 50%;
+    color: rgb(218, 218, 163);
+  }
+  
   .circle{
     position: absolute;
     width:199px;
     height:215px;
-    background-color: #FFF;
-    top:130px;
+    top:100px;
     left:842px;
     border-radius: 50%;
+  }
+  .imgcircle {
+    position: absolute;
+    width: 200px;
+    border-radius: 100%;
   }
   .footer{
     background-color: black;
@@ -93,7 +112,7 @@
     word-wrap: break-word;
     width: 521px;
     height: 274px;
-    top:470px;
+    top:620px;
     left:1335px;
   }
   .text4{
