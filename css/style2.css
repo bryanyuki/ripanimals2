@@ -145,6 +145,9 @@
       transition: 2s;
   
   }
+  .imageiska{
+    display: none;
+  }
 
 
 
@@ -181,11 +184,15 @@
   }
   .rectangle1{
     position: absolute;
-    background: #FFF;
-    left: 190px;
-    top: 384px;
+    left: 306px;
+    top: 1040px;
     width: 181px;
     height: 312px;
+  }
+  .imagefalco {
+    position: absolute;
+    width: 400.94px;
+    
   }
   .rectangle2{
     position: absolute;
@@ -197,18 +204,28 @@
   }
   .rectangle3{
     position: absolute;
-    background: #FFF;
-    left: 306px;
-    top: 1070px;
+    left: 190px;
+    top: 384px;
     width: 294.94px;
     height: 179.82px;
     transform: rotate(140.76deg);
+  }
+  .image3{
+    position: absolute;
+    width: 220px;
+    height: 312px;
   }
   .circle{
     position: absolute;
     background: #FFF;
     left: 832px;
     top: 51px;
+    width: 199px;
+    height: 215px;
+    border-radius: 50%;
+  }
+  .imgcircle{
+    position: absolute;
     width: 199px;
     height: 215px;
     border-radius: 50%;
@@ -274,7 +291,9 @@
       transition: 3s;
   
   }
-
+  .imageiska{
+    display: none;
+  }
 
 }
 @media screen and (max-width: 1000px) {
@@ -302,20 +321,28 @@
   }
   .rectangle1{
     position: absolute;
-    background: #FFF;
+    width: 400px;
+    height: 264px;
+    left: 44px;
+    top: 543px;
+  }
+  .imagefalco{
+    position: absolute;
+    width: 400px;
+    height: 264px;
+  }
+  .rectangle2mobile{
+    position: absolute;
+
     width: 300px;
     height: 428px;
     left: 652px;
     top: 90px;
   }
-  .rectangle2mobile{
-
-    background: #FFF;
+  .imageiska {
     position: absolute;
-    width: 400px;
-    height: 264px;
-    left: 44px;
-    top: 543px;
+    width: 300px;
+    height: 428px;
   }
   .rectangle3mobile{
     position: absolute;
@@ -325,13 +352,19 @@
     left: 552px;
     top: 543px;
   }
+  
   .circle{
     position: absolute;
-    background: #FFF;
     width: 366px;
     height: 473px;
     left: 317px;
     top: 1984px;
+    border-radius: 50%;
+  }
+  .imgcircle{
+    position: absolute;
+    width: 366px;
+    height: 473px;
     border-radius: 50%;
   }
   .img-mobile{
@@ -414,6 +447,9 @@
       transform: translateY(0);
       transition: 1.5s;
   
+  }
+  .ordi{
+    display: none;
   }
 
 }
