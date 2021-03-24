@@ -45,6 +45,11 @@
     top:753px;
     left:730px;
   }
+  .chat{
+    position: absolute;
+    width: 589px;
+    height: 312px;
+  }
   .rectangle3{
     position: absolute;
     width:200px;
@@ -202,6 +207,11 @@
     width: 589px;
     height: 312px;
   }
+  .chat {
+    position:absolute;
+    width: 589px;
+    height: 312px;
+  }
   .rectangle3{
     position: absolute;
     left: 190px;
@@ -351,6 +361,11 @@
     height: 264px;
     left: 552px;
     top: 543px;
+  }
+  .chatmobile{
+    position: absolute;
+    width: 400px;
+    height: 264px;
   }
   
   .circle{
