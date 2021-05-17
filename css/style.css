@@ -11,9 +11,11 @@
 
   div button img{
     width: 600px;
+    height: 900px;
   }
   div a img {
     width: 600px;
+    
   }
   button:focus {
     border: none;
@@ -66,25 +68,28 @@
     transition: 0.7s ease;
   }
   .popup-content {
-    height: 550px;
-    width: 940px;
+    height: 800px;
+    width: 1600px;
     top: 8em;
     padding-top: 10em;
     background: #FFFFFF;
     padding: 20px;
     border-radius: 5px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
   .video-closer {
     position: absolute;
     top: -15px;
     right: -15px;
-    background: #fff;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 6px 6px 29px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 29px rgba(0,0,0,0.6);
   }
   .video-closer:hover {
     transform: scale(1.1,1.1);
@@ -95,18 +100,13 @@
     width: 100%;
     height: 100%;
   }
-  .back-button {
-    display: flex;
-    width: 80px;
-    height: 80px;
-    transform: rotate(12deg);
-    padding-left: 20px;
-    padding-top: 20px;
-  }
   .back-button:hover {
     transform: scale(1,1);
     transition: 0.2s ease;
-  }
+  } 
+
+
+
   .text1,.text2 {
     background-color: #1e5704;
     width: 100px;
@@ -114,6 +114,60 @@
     padding-left: 5%;
     padding-top: 20%;
 
+  }
+  .slider{
+    width: 1200px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .slides{
+    width: 500%;
+    height: 500%;
+    display: flex;
+  }
+  .slides input {
+    display: none;
+  }
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  .slide img{
+    width: 1200px;
+    height: 600px;
+  }
+  .manual-nav{
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 33%;
+  }
+  .manual-btn{
+    border: 3px solid #d39ac0;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  .manual-btn:hover{
+    background: #d39ac0;
+  }
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radio4:checked ~ .first{
+    margin-left: -60%;
   }
 }
 
@@ -125,6 +179,7 @@
 
   div button img{
     max-width: 400px;
+    height: 600px;
   }
   div a img {
     max-width: 400px;
@@ -167,7 +222,6 @@
     display: none;
   }
 
-
   .button1:hover{
     transform: scale(1.1,1.1);
   }
@@ -185,14 +239,17 @@
     transition: 0.7s ease;
   }
   .popup-content {
-    height: 550px;
-    width: 940px;
-    top: 8em;
+    height: 700px;
+    width: 1200px;
+    top: 1em;
     padding-top: 10em;
     background: #FFFFFF;
     padding: 20px;
     border-radius: 5px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
   }
   .video-closer {
     position: absolute;
@@ -225,7 +282,7 @@
   .back-button:hover {
     transform: scale(1,1);
     transition: 0.2s ease;
-  }
+  } */
   .text1,.text2 {
     background-color: #1e5704;
     width: 100px;
@@ -233,6 +290,60 @@
     padding-left: 5%;
     padding-top: 20%;
 
+  }
+  .slider{
+    width: 1200px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .slides{
+    width: 500%;
+    height: 500%;
+    display: flex;
+  }
+  .slides input {
+    display: none;
+  }
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  .slide img{
+    width: 1200px;
+    height: 600px;
+  }
+  .manual-nav{
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45%;
+  }
+  .manual-btn{
+    border: 3px solid #d39ac0;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  .manual-btn:hover{
+    background: #d39ac0;
+  }
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radio4:checked ~ .first{
+    margin-left: -60%;
   }
 }
 @media screen and (max-width:1000px) {
