@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 @media screen and (min-width:1600px) {
-
   body{
     background: #595D5D 90%;
     height: 1080px;
@@ -37,10 +36,11 @@
     position: absolute;
     width: 39.313em;
   }
-  .rectangle2 img{
-    position: absolute;
+  .image2{
+
     width:589px;
     height:312px;
+    position: absolute;
     top:753px;
     left:730px;
   }
@@ -48,7 +48,6 @@
     position: absolute;
     width:200px;
     height:2px;
-    
     top:384px;
     left:190px;
   }
