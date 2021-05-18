@@ -7,7 +7,7 @@
 
   body{
     background: #595D5D 90%;
-    height: 1255px;
+    height: 1080px;
   }
   p {
     color: #FCF4EA;
@@ -30,18 +30,17 @@
     height: 19.5em;
     position: absolute;
     left: 77em;
-    top: 5.313em;
+    top: 4em;
     background-color: #FFF;
   }
   .imagefalco {
     position: absolute;
     width: 39.313em;
   }
-  .rectangle2{
+  .rectangle2 img{
     position: absolute;
     width:589px;
     height:312px;
-    background-color: #FFF;
     top:753px;
     left:730px;
   }
@@ -57,12 +56,7 @@
     position: absolute;
     width: 250px;
   }
-  .textimageiska {
-    position: absolute;
-    top: 340px;
-    left: 50%;
-    color: rgb(218, 218, 163);
-  }
+
   
   .circle{
     position: absolute;
@@ -112,7 +106,7 @@
     word-wrap: break-word;
     width: 521px;
     height: 274px;
-    top:620px;
+    top:600px;
     left:1335px;
   }
   .text4{
@@ -157,7 +151,7 @@
 
   body{
     background: #595D5D 90%;
-    height: 1500px;
+    height: 1300px;
   }
   p {
     color: #FCF4EA;
@@ -194,7 +188,7 @@
     width: 400.94px;
     
   }
-  .rectangle2{
+  .rectangle2 img{
     position: absolute;
     background: #FFF;
     left: 746px;
